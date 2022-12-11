@@ -12,7 +12,7 @@ export default function Header() {
               src="https://rb.gy/vsvv2o"
               placeholder="blur"
               blurDataURL="/Apple_logo_black.png"
-              alt="apply"
+              alt="apple"
               width={500}
               height={500}
               className="object-cover w-auto h-auto"
