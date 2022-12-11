@@ -2,6 +2,9 @@ import React from 'react'
 import Image from 'next/image';
 import Button from './Button';
 export default function Landing() {
+  function onClick(){
+    console.log("Click");
+  }
   return (
     <section className='sticky top-0 h-screen flex justify-between  items-center px-8 mx-auto max-w-[1450px] '>
         <div className='space-y-8'>
@@ -11,7 +14,7 @@ export default function Landing() {
                 <span>Driven By Values</span>
             </h1>
             <div className='space-x-9'>
-              <Button title={'Buy me'}/>
+              <Button title={'Buy me'} onClick={onClick} width='w-auto' loading={false} padding='py-2.5' noIcon={false}/>
               <a className='link'>Learn more</a>
             </div>
             
