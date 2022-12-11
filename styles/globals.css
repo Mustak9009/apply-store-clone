@@ -15,6 +15,6 @@
         @apply w-6 h-6 opacity-70 transition hover:opacity-100 cursor-pointer;
     }
     .link{
-        @apply relative cursor-pointer font-medium text-lg before:absolute before:inset-x-0 before:-bottom-1.5 before:h-0.5 before:origin-left before:scale-x-0 before:transform before:rounded-bl before:bg-black before:transition-all before:duration-200 before:hover:scale-x-100; /*inset-x-0 => add space to left:0,right:0 || rounded-bl => border-bottom-left-radius*/ 
+        @apply relative cursor-pointer font-medium text-lg before:absolute before:inset-x-0 before:-bottom-1.5 before:h-0.5 before:origin-left before:scale-x-0 before:transform before:rounded-bl before:bg-gradient-to-r before:from-pink-500 before:to-violet-500 before:transition-all before:duration-200 before:hover:scale-x-100; /*inset-x-0 => add space to left:0,right:0 || rounded-bl => border-bottom-left-radius*/ 
     }
 }
