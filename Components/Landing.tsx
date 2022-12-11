@@ -12,10 +12,11 @@ export default function Landing() {
             <div>
               <a className='link'>Learn more</a>
             </div>
-            <div className='relative hidden w-[450px] h-[450px] transition-all duration-500 md:inline lg:h-[650px] lg:w-[650px]'>
+            
+        </div>
+        <div className='relative hidden w-[450px] h-[450px] transition-all duration-500 md:inline lg:h-[650px] lg:w-[650px]'>
               <img src='/apple.webp' alt={'apple 13'}/>
             </div>
-        </div>
     </section>
   )
 }
