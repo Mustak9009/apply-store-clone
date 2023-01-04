@@ -20,7 +20,7 @@ export default function Landing() {
             
         </div>
         <div className='relative hidden w-[450px] h-[450px] transition-all duration-500 md:inline lg:h-[650px] lg:w-[650px]'>
-              <Image src='/apple.png' alt={'apple 13'} width={500} height={500} className='w-auto h-auto'/>
+              <Image src='/apple.png' alt={'apple 13'} width={400} height={500}/>
             </div>
     </section>
   )

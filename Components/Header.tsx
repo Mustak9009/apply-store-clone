@@ -13,8 +13,8 @@ export default function Header() {
               placeholder="blur"
               blurDataURL="/Apple_logo_black.png"
               alt="apple"
-              width={500}
-              height={500}
+              width={700}
+              height={700}
               className="object-cover w-auto h-auto"
             />
           </div>
